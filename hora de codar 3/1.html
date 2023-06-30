@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valor1 = Number(prompt("Digite o primeiro valor:"));
+let valor2 = Number(prompt("Digite o segundo valor:"));
+
+while (valor2 <= 0) {
+  valor2 = Number(prompt("Valor inválido. Digite um novo valor para o segundo número (maior que zero):"));
+}
+
+let resultado = valor1 / valor2;
+alert("O resultado da divisão é: " + resultado);
+
+    </script>
+</body>
+</html>

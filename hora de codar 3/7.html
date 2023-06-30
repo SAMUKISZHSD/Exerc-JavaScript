@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let notas = [];
+let nota;
+
+for (let i = 0; i < 6; i++) {
+  do {
+    nota = Number(prompt(`Digite a nota ${i+1}:`));
+  } while (nota < 0 || nota > 10);
+  notas.push(nota);
+}
+
+let media = notas.reduce((total, nota) => total + nota) / notas.length;
+
+alert(`A média do aluno é: ${media}`);
+
+    </script>
+</body>
+</html>

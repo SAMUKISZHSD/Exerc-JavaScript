@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let num1 = Number(prompt("Digite o primeiro número inteiro:"));
+let num2 = Number(prompt("Digite o segundo número inteiro:"));
+
+let soma = num1 + num2;
+let quantidade = 2;
+
+if (num1 > num2) {
+  let temp = num1;
+  num1 = num2;
+  num2 = temp;
+}
+
+for (let i = num1 + 1; i < num2; i++) {
+  soma += i;
+  quantidade++;
+}
+
+let media = soma / quantidade;
+
+alert("A média aritmética é: " + media);
+
+    </script>
+</body>
+</html>
