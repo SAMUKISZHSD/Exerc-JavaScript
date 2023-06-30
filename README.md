@@ -5,5 +5,5 @@ Aqui você encontra as atividades da Hora de Codar sobre lógica de programaçã
 
 **A atividade esta divivda em:**
 - hora de codar 1
-- hora de codar 2
+- hora de codar 2 (realizei uma calculadora)
 - hora de codar 3
