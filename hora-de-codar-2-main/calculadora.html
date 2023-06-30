@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tudo">
+    <div class="tela">
+       
+    </div>
+    <table>
+<tr>
+        <td>
+            <button style="background-color: rgb(53, 53, 255);" onclick="clean()">AC</button>
+        </td>
+        <td>
+            <button onclick="back()">C</button>
+        </td>
+        <td>
+            <button onclick="inserir('/')">/</button>
+        </td>
+
+</tr>
+
+<tr>
+<td>
+    <button onclick="inserir('7')">7</button>
+</td>
+<td>
+    <button onclick="inserir('8')">8</button>
+</td>
+<td>
+    <button onclick="inserir('9')">9</button>
+</td>
+<td>
+    <button onclick="inserir('*')">x</button>
+</td>
+</tr>
+
+<tr>
+    <td>
+        <button onclick="inserir('4')">4</button>
+    </td>
+    <td>
+        <button onclick="inserir('5')">5</button>
+    </td>
+    <td>
+        <button onclick="inserir('6')">6</button>
+    </td>
+    <td>
+        <button onclick="inserir('-')">-</button>
+    </td>
+    </tr>
+
+    <tr>
+        <td>
+            <button onclick="inserir('1')">1</button>
+        </td>
+        <td>
+            <button onclick="inserir('2')">2</button>
+        </td>
+        <td>
+            <button onclick="inserir('3')">3</button>
+        </td>
+        <td>
+            <button onclick="inserir('+')">+</button>
+        </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button onclick="inserir('0')">0</button>
+            </td>
+            <td>
+                <button onclick="inserir('.')">.</button>
+            </td>
+            <td colspan="2">
+                <button style="width: 102px; background-color: rgb(53, 53, 255);" onclick="somar()">=</button>
+            </td>
+        </tr>
+     
+    </table>
+</div>
+
+<script src="style.js"></script>
+</body>
+
+</html>

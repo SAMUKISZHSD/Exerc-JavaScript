@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    alert("Você terá que informar seis números.")
+
+var n1 = parseFloat(prompt("Escolha o número 1."))
+
+var n2 = parseFloat(prompt("Escolha o número 2."))
+
+var n3 = parseFloat(prompt("Escolha o número 3."))
+
+var n4 = parseFloat(prompt("Escolha o número 4."))
+
+var n5 = parseFloat(prompt("Escolha o número 5."))
+
+var n6 = parseFloat(prompt("Escolha o número 6."))
+
+var array = [n1, n2, n3, n4, n5, n6]
+var soma = 0
+
+for(let i = 0; i < array.length; i++){
+    if( array[i] < 72){
+        soma += array[i]
+    }
+}
+
+alert(`Os valores informados foram: ${n1},${n2},${n3},${n4},${n5},${n6}. A soma é igual a: ${soma}`)
+
+
+
+    </script>
+</body>
+</html>
