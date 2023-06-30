@@ -9,4 +9,4 @@ Aqui você encontra as atividades da Hora de Codar sobre lógica de programaçã
 - hora de codar 3
 
   **Tecnologia utilizada:**
-  <img align="center" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" title="JavaScript">
+  <img align="inline-block" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" title="JavaScript">
